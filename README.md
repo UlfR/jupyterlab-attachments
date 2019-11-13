@@ -10,7 +10,7 @@ A JupyterLab extension to add support for management of attachments in the Jupyt
 ## Installation
 
 ```bash
-jupyter labextension install @agoose77/jupyterlab-attachments
+jupyter labextension install @frontierkz/jupyterlab-attachments
 ```
 
 ## Development

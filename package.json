@@ -1,6 +1,6 @@
 {
   "name": "@frontierkz/jupyterlab-attachments",
-  "version": "0.0.3a",
+  "version": "0.0.3b",
   "description": "A JupyterLab extension to add support for attachments in the JupyterLab editor.",
   "keywords": [
     "jupyter",
