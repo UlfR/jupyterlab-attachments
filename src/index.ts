@@ -50,6 +50,7 @@ namespace CommandIDs {
     export const pasteCellAttachments = 'notebook:paste-cell-attachment';
     export const insertImage = 'notebook:insert-image';
     export const insertImageFromFileBrowser = 'notebook:insert-image-from-file-browser';
+    export const insertImageFromFileBrowser2 = 'notebook:insert-image-from-file-browser2';
 }
 
 /**
@@ -330,7 +331,7 @@ const extension: JupyterLabPlugin<void> = {
             mnemonic: 0
         });
 
-        app.commands.addCommand(CommandIDs.insertImageFromFileBrowser, {
+        app.commands.addCommand(CommandIDs.insertImageFromFileBrowser2, {
             execute: () => {
                 const widget = notebookTracker.currentWidget;
 

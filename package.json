@@ -1,15 +1,15 @@
 {
-  "name": "@agoose77/jupyterlab-attachments",
-  "version": "0.0.2",
+  "name": "@frontierkz/jupyterlab-attachments",
+  "version": "0.0.3a",
   "description": "A JupyterLab extension to add support for attachments in the JupyterLab editor.",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/agoose77/jupyterlab-attachments",
+  "homepage": "https://github.com/UlfR/jupyterlab-attachments",
   "bugs": {
-    "url": "https://github.com/agoose77/jupyterlab-attachments/issues"
+    "url": "https://github.com/UlfR/jupyterlab-attachments/issues"
   },
   "license": "BSD-3-Clause",
   "author": "Angus Hollands",
@@ -21,7 +21,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agoose77/jupyterlab-attachments.git"
+    "url": "https://github.com/UlfR/jupyterlab-attachments.git"
   },
   "scripts": {
     "build": "tsc",
@@ -30,15 +30,15 @@
     "watch": "tsc -w"
   },
   "dependencies": {
-    "@jupyterlab/application": "^0.19.1",
-    "@jupyterlab/apputils": "^0.19.1",
+    "@jupyterlab/application": "^1.2.1",
+    "@jupyterlab/apputils": "^1.2.1",
     "@jupyterlab/cells": "^0.19.1",
-    "@jupyterlab/coreutils": "^2.2.1",
-    "@jupyterlab/docmanager": "^0.19.1",
-    "@jupyterlab/filebrowser": "^0.19.3",
+    "@jupyterlab/coreutils": "^3.2.0",
+    "@jupyterlab/docmanager": "^1.2.1",
+    "@jupyterlab/filebrowser": "^1.2.1",
     "@jupyterlab/mainmenu": "^0.8.1",
-    "@jupyterlab/notebook": "^0.19.2",
-    "@jupyterlab/services": "^3.2.1"
+    "@jupyterlab/notebook": "^1.2.1",
+    "@jupyterlab/services": "^4.0.0"
   },
   "devDependencies": {
     "rimraf": "^2.6.1",
