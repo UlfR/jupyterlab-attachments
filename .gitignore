@@ -3,3 +3,7 @@
 Images2
 *.png
 *.ipynb
+.autoversion
+build
+dist
+node_modules
